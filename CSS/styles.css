@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo_header {
+    height: 10%;
+    width: auto;
+    margin-left: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: "Georgia", "Times New Roman", serif;
+    min-width:100px;
+}
+
+.page_header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: small;
+}
+
+.video_banner {
+    background-image: url('../images/background_school.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;     
+    align-items: center;         
+}
+
+.video_container{
+    display: block;
+    margin: auto;
+}
+
+.info_section_1 {
+    width: 30%;
+    margin-top: 60px;
+    font-family: "Georgia", "Times New Roman", serif;
+    text-align: left;
+}
+
+.info_section_2 {
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 100px;
+    font-family: "Georgia", "Times New Roman", serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    font-family: "Georgia", "Times New Roman", serif;
+    margin-top: 0; 
+}
+
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* 4. The Button */
+.button {
+    display: inline-block;
+    background-color: #008800;
+    color: white;
+    text-decoration: none;
+    padding: 12px 35px; 
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}   
+
+.beside_each_other {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 20px;
+    font-family: "Georgia", "Times New Roman", serif;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.images{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 35px; 
+    border-radius: 50px;
+}
+
+.image_button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 35px; 
+    width: 200px; 
+    height: 200px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Georgia", "Times New Roman", serif;
+    min-width:100px; 
+    background-color: darkgreen;
+    color: white;
+}
+
+.small_icon{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 4px; 
+}
