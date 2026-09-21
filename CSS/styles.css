@@ -113,7 +113,7 @@ body {
 .image_button{
     display: inline-block;
     text-decoration: none;
-    padding: 12px 35px; 
+    padding: 20px;
     width: 300px; 
     height: 300px;
     border-radius: 50%;
@@ -133,8 +133,8 @@ body {
 }
 
 .small_icon{
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
     margin: 0 4px; 
 }
