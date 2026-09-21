@@ -16,6 +16,7 @@ body {
     padding: 20px;
     font-family: "Georgia", "Times New Roman", serif;
     min-width:100px;
+    border-bottom: 5px solid gold;
 }
 
 .page_header {
@@ -113,11 +114,35 @@ body {
 .image_button{
     display: inline-block;
     text-decoration: none;
-    padding: 20px;
     width: 300px; 
     height: 300px;
-    border-radius: 50%;
-    border: 4px solid green
+    border-radius: 20%;
+    border: 4px solid green;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-in-out, text-shadow 0.3s ease-out, opacity 0.3s ease-out, color 0.3s ease-out;
+    transform: translateZ(0);
+}
+
+.hidden_text{
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: opacity 0.3s ease, max-width 0.3s ease;
+}
+
+.image_button:hover{
+    width: 350px;
+    height: 350px;
+    color: darkgreen;
+    opacity: 1;
+    transform: translateZ(100px);
+    text-shadow: 2px 4px 12px rgba(255, 0, 128, 0.7); 
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.image_button:hover .hidden_text{
+    opacity: 1;
+    max-width: 150px;
 }
 
 .footer{
@@ -130,6 +155,7 @@ body {
     min-width:100px; 
     background-color: darkgreen;
     color: white;
+    border-top: 5px solid gold;
 }
 
 .small_icon{
